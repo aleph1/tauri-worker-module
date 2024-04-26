@@ -1,7 +1,3 @@
-# Tauri + Vanilla
+Opening src/index.html in Safari works as expected, “success!” should be appended to the page.
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Running `npm run tauri dev` will does not work as expected, inspect the page and see the console for the error (SyntaxError: Unexpected token '{'. import call expects exactly one argument.).
